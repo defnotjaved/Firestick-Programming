@@ -1,0 +1,18 @@
+{
+  "name": "gadgetbaytt-firetv-provisioning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Windows-friendly Fire TV APK download and ADB provisioning scripts.",
+  "type": "commonjs",
+  "scripts": {
+    "tui": "node src/tui.js",
+    "download": "node src/download-apks.js",
+    "setup": "node src/setup-firetv.js",
+    "setup:iptv": "node src/setup-iptv-smarters.js",
+    "setup:tivimate": "node src/setup-tivimate.js",
+    "validate": "node src/download-apks.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

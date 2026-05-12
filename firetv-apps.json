@@ -1,0 +1,277 @@
+{
+  "downloadsDir": "C:\\apkapps",
+  "troypointCodesUrl": "https://troypoint.com/best-downloader-codes/",
+  "categories": {
+    "movies": { "minimumRequired": 3 },
+    "sports": { "minimumRequired": 3 },
+    "live-tv": { "minimumRequired": 3 },
+    "local": { "minimumRequired": 3 },
+    "utilities": { "minimumRequired": 0 }
+  },
+  "apps": [
+    {
+      "id": "beetv",
+      "name": "BeeTV",
+      "category": "movies",
+      "source": { "type": "troypoint-code", "code": "50187", "apkFile": "BeeTV-4.6.8.apk" },
+      "required": true,
+      "homeOrder": 1
+    },
+    {
+      "id": "flix-vision",
+      "name": "Flix Vision",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "FlixVision_v3.1.1r.apk" },
+      "packageName": "flix.com.vision",
+      "launchActivity": ".activities.SplashScreenActivity",
+      "required": true,
+      "homeOrder": 18
+    },
+    {
+      "id": "cinema-hd",
+      "name": "Cinema HD",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "cinemahd.apk" },
+      "packageName": "com.axon.services.beta",
+      "required": true,
+      "homeOrder": 19
+    },
+    {
+      "id": "hdo-box",
+      "name": "HDO Box",
+      "category": "movies",
+      "source": { "type": "troypoint-code", "code": "3475826", "apkFile": "HDO-Box-2.1.4.apk" },
+      "packageName": "com.hdobox",
+      "launchActivity": ".MainActivity",
+      "required": true,
+      "homeOrder": 1
+    },
+    {
+      "id": "nova-tv",
+      "name": "Nova TV",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "novatv.apk" },
+      "packageName": "com.polygon.videoplayer",
+      "required": true,
+      "homeOrder": 20
+    },
+    {
+      "id": "iptv-smarters",
+      "name": "IPTV Smarters",
+      "category": "live-tv",
+      "source": { "type": "troypoint-code", "code": "78522" },
+      "required": true,
+      "homeOrder": 6
+    },
+    {
+      "id": "streamfire",
+      "name": "StreamFire",
+      "category": "live-tv",
+      "source": { "type": "troypoint-code", "code": "402844" },
+      "packageName": "com.streamfire.app",
+      "launchActivity": ".ui.HomeActivity",
+      "required": true,
+      "homeOrder": 2
+    },
+    {
+      "id": "rapid-streamz",
+      "name": "Rapid Streamz",
+      "category": "live-tv",
+      "source": { "type": "troypoint-code", "code": "174927", "apkFile": "Rapid-Streamz-v4.7.apk" },
+      "packageName": "com.pro.cricpk",
+      "required": true,
+      "homeOrder": 12
+    },
+    {
+      "id": "sportzx",
+      "name": "SportzX",
+      "category": "sports",
+      "source": { "type": "troypoint-code", "code": "2330613" },
+      "required": true,
+      "homeOrder": 9
+    },
+    {
+      "id": "sportszone-tv",
+      "name": "SportsZone TV",
+      "category": "sports",
+      "source": { "type": "troypoint-code", "code": "4052922" },
+      "required": true,
+      "homeOrder": 10
+    },
+    {
+      "id": "falconcast",
+      "name": "FalconCast",
+      "category": "sports",
+      "source": { "type": "troypoint-code", "code": "8213428" },
+      "required": true,
+      "homeOrder": 11
+    },
+    {
+      "id": "local-1",
+      "name": "RedBox TV",
+      "category": "local",
+      "source": { "type": "manual", "apkFile": "RedBox-TV-v2.10.apk" },
+      "packageName": "com.reddish.redbox",
+      "required": true,
+      "homeOrder": 13,
+      "notes": "Preloaded local/live app from C:\\apkapps."
+    },
+    {
+      "id": "local-2",
+      "name": "Swift Streamz",
+      "category": "local",
+      "source": { "type": "manual", "apkFile": "Swift-Streamz-v2.4.apk" },
+      "packageName": "com.swiftstreamz",
+      "required": true,
+      "homeOrder": 14,
+      "notes": "Preloaded local/live app from C:\\apkapps."
+    },
+    {
+      "id": "local-3",
+      "name": "VLC",
+      "category": "local",
+      "source": { "type": "manual", "apkFile": "VLC-3.7.0-arm64.apk" },
+      "required": true,
+      "homeOrder": 14,
+      "notes": "Preloaded player app from C:\\apkapps."
+    },
+    {
+      "id": "ak47-sports",
+      "name": "AK47 Sports",
+      "category": "sports",
+      "source": { "type": "manual", "apkFile": "AK47-Sports-v1.5.apk" },
+      "packageName": "app.aksports.live",
+      "required": true,
+      "homeOrder": 6
+    },
+    {
+      "id": "cyberflix-tv",
+      "name": "CyberFlix TV",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "CyberFlix-TV-3.3.6.apk" },
+      "packageName": "com.cybermedia.cyberflx",
+      "required": true,
+      "homeOrder": 21
+    },
+    {
+      "id": "filmplus",
+      "name": "FilmPlus",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "FilmPlus-2.3.4r.apk" },
+      "packageName": "com.guideplus.co",
+      "required": true,
+      "homeOrder": 22
+    },
+    {
+      "id": "kodi",
+      "name": "Kodi",
+      "category": "utilities",
+      "source": { "type": "manual", "apkFile": "Kodi-21.3-Omega-arm64-v8a.apk" },
+      "required": true,
+      "homeOrder": 20
+    },
+    {
+      "id": "mouse-toggle-fire-tv",
+      "name": "Mouse Toggle Fire TV",
+      "category": "utilities",
+      "source": { "type": "manual", "apkFile": "Mouse-Toggle-Fire-TV-1.11.apk" },
+      "packageName": "com.fluxii.android.mousetoggleforfiretv",
+      "required": true,
+      "homeOrder": 21
+    },
+    {
+      "id": "nuvio-tv",
+      "name": "Nuvio TV",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "Nuvio-TV-0.6.15-arm64.apk" },
+      "required": true,
+      "homeOrder": 22
+    },
+    {
+      "id": "perfect-player-iptv",
+      "name": "Perfect Player IPTV",
+      "category": "live-tv",
+      "source": { "type": "manual", "apkFile": "Perfect-Player-IPTV-1.4.6.apk" },
+      "packageName": "com.niklabs.pp",
+      "required": true,
+      "homeOrder": 23
+    },
+    {
+      "id": "sportsfire",
+      "name": "SportsFire",
+      "category": "sports",
+      "source": { "type": "manual", "apkFile": "SportsFire.apk" },
+      "packageName": "com.leed.sportsfire",
+      "launchActivity": ".ui.HomeActivity",
+      "required": true,
+      "homeOrder": 3
+    },
+    {
+      "id": "sportzfy-tv",
+      "name": "Sportzfy TV",
+      "category": "sports",
+      "source": { "type": "manual", "apkFile": "Sportzfy-TV-v16.apk" },
+      "packageName": "com.krira.tv",
+      "required": true,
+      "homeOrder": 4
+    },
+    {
+      "id": "stremio",
+      "name": "Stremio",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "Stremio-1.9.12-AndroidTV-arm64.apk" },
+      "packageName": "com.stremio.one",
+      "required": true,
+      "homeOrder": 23
+    },
+    {
+      "id": "strmr",
+      "name": "STRMR",
+      "category": "movies",
+      "source": { "type": "manual", "apkFile": "STRMR-latest.apk" },
+      "packageName": "com.strmr.ps",
+      "required": true,
+      "homeOrder": 24
+    },
+    {
+      "id": "tplayer",
+      "name": "TPlayer",
+      "category": "utilities",
+      "source": { "type": "troypoint-code", "code": "311395" },
+      "required": true,
+      "homeOrder": 15
+    },
+    {
+      "id": "bear-player",
+      "name": "Bear Player",
+      "category": "utilities",
+      "source": {
+        "type": "direct-url",
+        "url": "https://archive.org/download/com.player.bear/com.player.bear.apk"
+      },
+      "packageName": "com.player.bear",
+      "required": true,
+      "homeOrder": 5,
+      "notes": "Troypoint page did not list Bear Player; direct APK source added from public search result."
+    },
+    {
+      "id": "multi-streamz",
+      "name": "Multi Streamz",
+      "category": "live-tv",
+      "source": { "type": "manual", "apkFile": "Multi-Streamz-2.2-release.apk" },
+      "packageName": "com.multistreamz.tv",
+      "launchActivity": ".eEvupklbCzpfw",
+      "required": true,
+      "homeOrder": 7
+    },
+    {
+      "id": "tvmob-pro",
+      "name": "TvMob Pro",
+      "category": "live-tv",
+      "source": { "type": "manual", "apkFile": "TvMob_Pro_v2.9.apk" },
+      "packageName": "com.tvmob.mob",
+      "required": true,
+      "homeOrder": 8
+    }
+  ]
+}
