@@ -14,7 +14,7 @@ This tool downloads approved APKs into `C:\apkapps`, installs them on one or mor
 Launch the terminal UI:
 
 ```powershell
-.\scripts\firetv\firetv-tui.ps1
+.\firetv-tui.ps1
 ```
 
 The TUI can:
@@ -45,19 +45,19 @@ Edit `firetv-apps.json` before the first full run.
 Dry run:
 
 ```powershell
-.\scripts\firetv\download-apks.ps1 -DryRun
+.\download-apks.ps1 -DryRun
 ```
 
 Download:
 
 ```powershell
-.\scripts\firetv\download-apks.ps1
+.\download-apks.ps1
 ```
 
 Allow Bear Player alternate-source lookup after adding approved domains:
 
 ```powershell
-.\scripts\firetv\download-apks.ps1 -AllowAlternateSearch
+.\download-apks.ps1 -AllowAlternateSearch
 ```
 
 Every run writes a JSON report under:
@@ -71,19 +71,19 @@ C:\apkapps\_runs\
 Connect by IP:
 
 ```powershell
-.\scripts\firetv\setup-firetv.ps1 -FireTvIp 192.168.1.50 -Mode unattended
+.\setup-firetv.ps1 -FireTvIp 192.168.1.50 -Mode unattended
 ```
 
 Use an already connected ADB device:
 
 ```powershell
-.\scripts\firetv\setup-firetv.ps1 -Device 192.168.1.50:5555 -Mode install-only
+.\setup-firetv.ps1 -Device 192.168.1.50:5555 -Mode install-only
 ```
 
 Install everything currently available and only log missing manifest APKs:
 
 ```powershell
-.\scripts\firetv\setup-firetv.ps1 -Device 192.168.1.50:5555 -Mode unattended -AllowMissing
+.\setup-firetv.ps1 -Device 192.168.1.50:5555 -Mode unattended -AllowMissing
 ```
 
 Modes:
@@ -105,7 +105,7 @@ By default, reruns reuse installed APKs, reuse the ADB keyboard, and verify an a
 Run multiple authorized sticks in parallel using existing saved accounts and wd-card portals:
 
 ```powershell
-.\scripts\firetv\setup-tivimate.ps1 `
+.\setup-tivimate.ps1 `
   -Ips "192.168.1.202,192.168.1.206,192.168.1.163" `
   -AccountsFile "C:\apkapps\_runs\tivimate-2026-05-11T19-32-01-678Z\accounts.json" `
   -PortalMap "C:\apkapps\tivimate-portals.json" `
